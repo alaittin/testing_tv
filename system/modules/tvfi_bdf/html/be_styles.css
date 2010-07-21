@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tl_organismeListwizard,.tl_organismeListwizard li{margin:0;padding:0;list-style:none;}
+
+
+li.widget_orgPickerField{margin-bottom: 3px; width:425px; padding-top: 2px; text-decoration: none;list-style-image: none;list-style-type: none;padding-left: 0;margin-left: 0;}
+li.widget_orgPickerField a.titre{text-decoration: none;cursor: pointer;padding-right: 20px; }
+.cnt {background: url(imgs/artists.png) no-repeat 3px center;padding-left: 25px;cursor: pointer;}
+.org {background: url(imgs/organismes.png) no-repeat 3px center;padding-left: 25px;cursor: pointer;}
+.empty {background: url(imgs/organismes.png) no-repeat 3px center;padding-left: 25px;cursor: pointer;}
+.contact, .utilisateur, .catalogue {margin-right: 10px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-top-color: #d4d3d4; border-top-style: solid; border-top-width: 1px; cursor: pointer;}
+.catalogue a {background: url(imgs/catalogue.png) no-repeat 3px center;padding-left: 0px;  cursor: pointer;}
+.contact a {background: url(imgs/contact.png) no-repeat 3px center;padding-left: 0px;  cursor: pointer;}
+.utilisateur a {background: url(imgs/utilisateurs.png) no-repeat 3px center;padding-left: 0px;  cursor: pointer;}
+
+.resume_last {height: 3px; margin-right: 10px; border-top-color: #d4d3d4; border-top-style: solid; border-top-width: 1px;}
+
+.contact:hover, .r_concert:hover, .r_release:hover, .r_news:hover, .r_award:hover {background-color: #f3f2f3;}
+
+
+#arrowBox {width: 500px;position:absolute;}
+#arrowBoxTop {width: 100%;background: url(imgs/arrowBoxTop.png) no-repeat;height: 33px;}
+#arrowBoxMiddle {width: 420px;background: url(imgs/arrowBoxMiddle.png) repeat-y;margin-top: 0;margin-bottom: 0;padding-left: 40px;padding-right: 40px;}
+#arrowBoxBottom  {width: 100%;background: url(imgs/arrowBoxBottom.png) no-repeat;height: 29px;margin-top: 0;}
+
+#arrowBoxMiddle .element{padding-bottom: 5px;border-bottom: 1px solid #a1a1a1;width: 420px;padding-top: 5px;height: 25px;}
+#arrowBoxMiddle .elementXL{padding-bottom: 5px;border-bottom: 1px solid #a1a1a1;width: 420px;padding-top: 5px;height: 50px;}
+#arrowBoxMiddle h1{margin: 0;background-image: none;}
+#arrowBoxMiddle .label{margin: 0 0 10px;background-image: none;}
+
+#arrowBoxMiddle input{margin-right: 3px;margin-left: 3px;padding-right: 2px;padding-left: 2px;}
+#arrowBoxMiddle p.loading{margin: 0;background: url(imgs/loading.gif) no-repeat 0 0;padding-top: 2px;padding-left: 25px;padding-right: 0;}
+#arrowBoxMiddle p.alert{margin: 0;background: url(imgs/alert.png) no-repeat 0 0;padding-top: 2px;padding-left: 25px;padding-right: 0;}
+#arrowBoxMiddle p.empty{width: 250px;margin: 0 0 10px; border-bottom: thin solid #afafaf;padding-left: 0;padding-right: 20px;}
+#arrowBoxMiddle input.select {margin: 0 0 10px; border-bottom: thin solid #afafaf;padding-left: 0;padding-right: 20px;width: 300px;font-size: 10px;}
+#arrowBoxMiddle a.down{margin: 0;background: url(imgs/1downarrow1.png) no-repeat 0 0;float: left;padding: 2px 0 10px 25px;cursor: pointer;}
+#arrowBoxMiddle a.right{margin: 0;background: url(imgs/1rightarrow.png) no-repeat right 0;padding-top: 2px;padding-right: 25px;float: right;padding-bottom: 10px;cursor: pointer;}
+
+.header_css_frontenduserimport { padding: 2px 0px 3px 20px; background-image: url("imgs/useradd.png"); background-position: left center; background-repeat: no-repeat; }
